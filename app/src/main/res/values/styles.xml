@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ListaContainerPadrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/activity_text_default_padding</item>
+    </style>
+
+    <style name="ListaTituloPadrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textAppearance">?attr/textAppearanceListItem</item>
+        <item name="android:textSize">@dimen/list_first_line_default</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="ListaSubtituloPadrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero_dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top</item>
+        <item name="android:fontFamily">Roboto Regular</item>
+        <item name="android:textAppearance">?attr/textAppearanceListItem</item>
+        <item name="android:textSize">@dimen/list_second_line_default</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+</resources>

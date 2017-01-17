@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lista_padrao_texto_container"
+    style="@style/ListaContainerPadrao">
+
+    <TextView
+        android:id="@+id/lista_padrao_titulo_textview"
+        style="@style/ListaTituloPadrao"
+        tools:text="@string/tools_titulo_demo" />
+
+    <TextView
+        android:id="@+id/lista_padrao_autor_textview"
+        style="@style/ListaSubtituloPadrao"
+        tools:text="@string/tools_subtitulo_demo" />
+
+
+</LinearLayout>

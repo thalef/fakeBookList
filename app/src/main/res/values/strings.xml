@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Fake Book List</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="ui_titulo_livro_lista">Livros</string>
+
+    <string name="tools_titulo_demo">Título</string>
+    <string name="tools_subtitulo_demo">subtítulo</string>
+
+    <string name="ui_lista_imagem_descricao">Capa do Livro</string>
+    <string name="text_autor_nao_encontrado">Autor não encontrado</string>
+    <string name="livros_nao_encontrados">Livros não encontrados com esses parametros</string>
+    <string name="msg_pesquise_os_livros">Pesquisa digitando no campo de busca acima.</string>
+    <string name="txt_pesquisar">Pesquisar</string>
+    <string name="msg_informa_titulo_buscar">Informe o titulo do livro na busca</string>
+    <string name="msg_sem_internet">Sem internet. Conecte para realizar a busca</string>
+
+    <string name="msg_houve_problem_converter_livros_json">Houve um problema ao tentar converter o JSON uma lista de objetos do tipo livro</string>
+
+
+</resources>
